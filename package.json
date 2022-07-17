@@ -8,9 +8,10 @@
     "node": "14.18.0"
   },
   "scripts": {
-    "start": "node index.js",
+  
     "build": "echo \"Error: no test specified\" && exit 1",
-    "heroku-postbuild": "npm run build"
+    "start": "node index.js",
+
   },
   "keywords": [],
   "author": "",
