@@ -9,7 +9,8 @@
   },
   "scripts": {
     "start": "node index.js",
-    "build": "echo \"Error: no test specified\" && exit 1"
+    "build": "echo \"Error: no test specified\" && exit 1",
+    "heroku-postbuild": "npm run build"
   },
   "keywords": [],
   "author": "",
